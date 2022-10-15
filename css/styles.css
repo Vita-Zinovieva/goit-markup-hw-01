@@ -1,0 +1,433 @@
+:root {
+  --title-text-color: #212121;
+  --primery-text-color: #757575;
+  --acent-color: #2196f3;
+  --acent-white-color: #f5f5f5;
+  --secodary-button-color: #f5f4fa;
+  --primery-background-color: #ffffff;
+}
+
+/* основний колір сторінки: background: #F5F5F5;*/
+/* загаловки: color: #212121;*/
+/* основний тексту: color: #757575;*/
+/* колір посилань знизу: color: rgba(255, 255, 255, 0.6);*/
+/* колір посилань зверху: color: #2196F3; */
+
+body {
+  background-color: var(--primery-background-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 4px solid aqua;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*<span class="letter">HTML</span>*/
+
+.list {
+  list-style: none;
+}
+
+/* ХЕДЕР + логотип */
+
+.conteiner-header {
+  display: flex;
+  border-bottom: #ececec 1px;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--acent-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.15;
+}
+
+.logo {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 93px;
+}
+
+.studio-logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.15;
+}
+
+.studio-log {
+  display: flex;
+}
+
+.studio-logos {
+  color: var(--acent-white-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.15;
+}
+.studio-logos {
+  display: flex;
+}
+
+/* + site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 500;
+}
+.site-nav .link {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.site-nav .link .current {
+  color: var(--acent-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-color);
+}
+
+/* + auth-nav */
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.auth-nav .link {
+  color: var(--primery-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.auth-nav .link {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .link:hover,
+.auth-nav:focus {
+  color: var(--acent-color);
+}
+.object {
+  margin-right: 50px;
+}
+
+.object:first-child {
+  margin-left: 300px;
+}
+
+.object:last-child {
+  margin-right: 215px;
+}
+
+.auth-nav .link {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+/*МЕЙН + клас- герой */
+.hero {
+  background-color: var(--title-text-color);
+  text-align: center;
+}
+
+/*МЕЙН +Н1*/
+.hero-titel {
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: var(--acent-white-color);
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+/* + hero-button*/
+.button.primery {
+  text-align: center;
+  min-width: 216px;
+  display: inline-block;
+  padding: 10px 32px;
+  background: var(--acent-color);
+  color: var(--acent-white-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.button.secondary {
+  text-align: center;
+  min-width: 73px;
+  display: inline-block;
+  padding: 6px 22px;
+  background: var(--secodary-button-color);
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--acent-color);
+  color: var(--primery-background-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.conteiner-button {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.conteiner-button:first-child {
+  margin-left: 297px;
+}
+
+/*  СЕКЦІЯ + увага до деталей*/
+
+.list .item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  padding: 0px;
+  margin-right: 30px;
+  justify-content: flex-start;
+}
+
+.conteiner .list {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+}
+
+.list .item:first-child {
+  margin-left: 15px;
+}
+
+.list .item:nth-child(n + 4) {
+  margin-right: 0px;
+}
+
+/*заголовки секцій*/
+
+/*ЗАГОЛОВОК Н3*/
+.section-tit {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/*ЗАГАЛОВОК Н2*/
+.section-titel {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0px;
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/*ТЕКСТОВИЙ АБЗАЦ*/
+.section-text {
+  margin: auto;
+  padding: 0px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*СЕКЦІЯ НАША КОМАНДА*/
+
+.comand {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: var(--secodary-button-color);
+}
+/*ЗАГОЛОВОК Р3*/
+.comand-titel {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* TЕКСТОВИЙ АБЗАЦ*/
+.comand-text {
+  padding-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/*Портфоліо, секція з фото*/
+.section.conteiner {
+  width: 1200px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: #eeeeee 1px;
+}
+
+.list-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.conteiner-element {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.conteiner-element:nth-child(3n) {
+  margin-right: 0;
+}
+
+.conteiner-element:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.conteiner-element:nth-child(3n + 1) {
+  margin-left: 15px;
+}
+
+.conteiner-element .section-titel {
+  margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.conteiner-element .section-text {
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+/*ГОЛОВНА, секція наша команда*/
+
+.list-conteiners {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.conteiner-elements {
+  width: 270px;
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.conteiner-elements:nth-child(4n) {
+  margin-right: 0;
+}
+
+.conteiner-elements:first-child {
+  margin-left: 15px;
+}
+
+/*футер*/
+.footer {
+  background-color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+.footer .footer-address {
+  color: var(--acent-white-color);
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+
+  margin-left: 215px;
+  margin-bottom: 9px;
+}
+
+.footer .footer-address:hover,
+.footer .footer-address:focus {
+  color: var(--acent-color);
+}
+
+.footer .footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+
+  margin-left: 215px;
+  margin-bottom: 9px;
+}
+
+.footer .footer-contact:last-child {
+  margin-bottom: 60px;
+}
+
+.footer .footer-contact:hover,
+.footer .footer-contact:focus {
+  color: var(--acent-color);
+}
+
+.footer .logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
